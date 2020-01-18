@@ -1,0 +1,34 @@
+import time
+start=time.time()
+one      =191*3
+two      =190*3
+three    =190*5
+four     =190*4
+five     =190*4
+six      =190*3
+seven    =190*5
+eight    =190*5
+nine     =190*4
+ten      =10*3
+eleven   =10*6
+twelve   =10*6
+thirteen =10*8
+fourteen =10*8
+fifteen  =10*7
+sixteen  =10*7
+seventeen=10*9
+eighteen =10*8
+nineteen =10*8
+twenty   =100*6
+thirty   =100*6
+forty    =100*5
+fifty    =100*5
+sixty    =100*5
+seventy  =100*7
+eighty   =100*6
+ninety   =100*6
+hundred  =900*7
+xand     =891*3
+thousand =1*8
+ans=one+two+three+four+five+six+seven+eight+nine+ten+eleven+twelve+thirteen+fourteen+fifteen+sixteen+seventeen+eighteen+nineteen+twenty+thirty+forty+fifty+sixty+seventy+eighty+ninety+hundred+xand+thousand
+print(ans,time.time()-start," seconds")
